@@ -1,0 +1,44 @@
+services:
+
+  postgres:
+
+    image: postgres:15
+
+    container_name: postgres
+
+    environment:
+      POSTGRES_DB: evser
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+
+    ports:
+      - "5432:5432"
+
+    volumes:
+      - ./database/init.sql:/docker-entrypoint-initdb.d/init.sql
+
+  backend:
+
+    build:
+      context: ./backend
+
+    container_name: backend
+
+    ports:
+      - "8080:8080"
+
+    depends_on:
+      - postgres
+
+  frontend:
+
+    build:
+      context: ./frontend
+
+    container_name: frontend
+
+    ports:
+      - "3000:80"
+
+    depends_on:
+      - backend
