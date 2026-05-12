@@ -1,0 +1,17 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:postgresql://postgres:5432/evser
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+
+  jackson:
+    serialization:
+      INDENT_OUTPUT: true
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html

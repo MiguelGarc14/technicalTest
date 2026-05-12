@@ -1,0 +1,90 @@
+/*
+ * BOTÓN PERSONALIZADO EFECTIVALE
+ */
+
+.btn-efectivale {
+
+    background-color: #AF2939;
+
+    border-color: #AF2939;
+
+    color: white;
+
+    transition:
+        background-color 0.2s ease,
+        border-color 0.2s ease,
+        transform 0.2s ease;
+}
+
+/*
+ * HOVER
+ */
+
+.btn-efectivale:hover {
+
+    background-color: #962230;
+
+    border-color: #962230;
+
+    color: white;
+
+    transform: translateY(-1px);
+}
+
+/*
+ * CLICK
+ */
+
+.btn-efectivale:active {
+
+    background-color: #7f1d28 !important;
+
+    border-color: #7f1d28 !important;
+
+    color: white !important;
+}
+
+/*
+ * FOCUS
+ */
+
+.btn-efectivale:focus {
+
+    box-shadow:
+        0 0 0 0.2rem
+        rgba(175, 41, 57, 0.4);
+}
+
+
+.app-banner {
+
+    background-color: #AF2939;
+
+    color: white;
+
+    padding: 20px 24px;
+
+    border-radius: 10px;
+
+    margin-bottom: 20px;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.app-banner h1 {
+
+    margin: 0;
+
+    font-size: 24px;
+
+    font-weight: 600;
+}
+
+.app-banner p {
+
+    margin: 4px 0 0 0;
+
+    font-size: 14px;
+
+    opacity: 0.9;
+}
