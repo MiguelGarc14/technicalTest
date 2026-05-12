@@ -288,6 +288,12 @@ docs/
 - Consignatarios
 <img width="1356" height="288" alt="image" src="https://github.com/user-attachments/assets/0caf787e-137f-42ce-b937-dbcb435fe6ea" />
 
+- Request API-rest
+<img width="942" height="615" alt="image" src="https://github.com/user-attachments/assets/e3d0addf-103e-4028-826a-13b7f3c291df" />
+<img width="942" height="615" alt="image" src="https://github.com/user-attachments/assets/eabf4014-7141-46b2-83c3-6513315178c2" />
+
+
+
 
 
 
