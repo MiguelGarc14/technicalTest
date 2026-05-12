@@ -259,10 +259,6 @@ Frontend moderno desarrollado con:
 
 ---
 
-# Capturas Recomendadas
-
-Se recomienda agregar capturas en:
-
 ```text
 docs/images/
 ```
@@ -283,10 +279,17 @@ docs/
 
 ## Frontend
 
-- formulario clientes
-- tabla clientes
-- formulario consignatarios
-- tabla consignatarios
+<img width="1356" height="604" alt="image" src="https://github.com/user-attachments/assets/05be1aa3-301d-4394-8ade-7e3e8ec75bd5" />
+
+- PostgreSQL conectado
+- Clientes
+<img width="1356" height="262" alt="image" src="https://github.com/user-attachments/assets/ddc05cff-ec4a-4c28-81ff-040785867959" />
+
+- Consignatarios
+<img width="1356" height="288" alt="image" src="https://github.com/user-attachments/assets/0caf787e-137f-42ce-b937-dbcb435fe6ea" />
+
+
+
 
 ## Swagger
 
