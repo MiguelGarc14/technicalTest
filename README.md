@@ -1,4 +1,4 @@
-# EVSER SYSTEM
+# EFECTIVALE SYSTEM
 
 Sistema Full Stack desarrollado con Java 17, Spring Boot, React, PostgreSQL y Docker utilizando arquitectura limpia (Clean Architecture).
 
